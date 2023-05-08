@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+.mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.card-1 {
+    width: 250px;
+    height: 400px;
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card-1 button {
+    color: hsl(31, 77%, 52%);
+}
+
+.card-1 button:hover {
+    border-style: solid;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card-2 {
+    width: 250px;
+    height: 400px;
+    padding: 30px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-2 button {
+    color: hsl(184, 100%, 22%);
+}
+
+.card-2 button:hover {
+    border-style: solid;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-3 {
+    width: 250px;
+    height: 400px;
+    padding: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.card-3 button {
+    color:hsl(179, 100%, 13%);
+}
+
+.card-3 button:hover {
+    border-style: solid;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+}
+
+.icons {
+    width: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.cardsTitles {
+    font-size: 40px;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: hsl(0, 0%, 95%);
+}
+
+.paragraphs {
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+
+.buttons {
+    width: 130px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 80px;
+    cursor: pointer;
+    border-radius: 20px;
+    border-style: none;
+    border-color: hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+@media screen and (max-width: 790px) {
+    .buttons {
+        margin-top: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 670px) {
+    .mainContainer {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .card-1 {
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+        margin-top: 50px;
+    }
+
+    .card-3 {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 0;
+    }
+
+    .buttons {
+        margin-top: 50px;
+    }
+}
+
+
+.attribution {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 10vh;
+    font-size: 12px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
